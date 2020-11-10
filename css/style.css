@@ -1,0 +1,27 @@
+/*Main Page Styles*/
+body {
+  background-image: url(../media/village_background.jpg);
+  background-repeat: no-repeat;
+  font-family: arial;
+}
+#Content_Block {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: white;
+  border: .5em solid;
+  border-image-source: linear-gradient(#A7C2D9,#2B6CA3);
+  border-image-slice: 1;
+    
+}
+#title {
+  color: #2B6CA3;	
+  display: inline;
+  vertical-align: middle;
+}
+#logo {
+  display: inline-block;
+}
+  
