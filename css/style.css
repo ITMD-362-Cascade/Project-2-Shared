@@ -25,3 +25,22 @@ body {
   display: inline-block;
 }
   
+/*Scaling for smaller media*/
+@media only screen and (max-width: 750px) { 
+  body {
+    margin: 0;
+  }
+  #logo {
+	width: 50%;
+	display: block;
+    margin-right: auto;
+	margin-left: auto;
+  }
+  #Content_Block {
+    width: 100%;
+  }
+  #title {
+    text-align: center;
+    float: left;
+  }
+}
