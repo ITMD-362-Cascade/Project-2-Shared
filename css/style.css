@@ -13,7 +13,6 @@ body {
   border: .5em solid;
   border-image-source: linear-gradient(#A7C2D9,#2B6CA3);
   border-image-slice: 1;
-    
 }
 #header_div {
   padding: 1em;	
@@ -21,12 +20,12 @@ body {
 #news {
   display: none;
 }
-#nav_div {
+#nav_list {
   display: block;
   background-color: #2B6CA3;
   overflow: hidden;
 }
-#nav_div a {
+#nav_list a {
   float: left;
   color: white;
   font-size: 1em;
@@ -35,7 +34,10 @@ body {
   padding: 1em 1em;
   text-decoration: none;
 }
-#nav_div a:hover {
+ul {
+  list-style-type: none;
+}
+#nav_list a:hover {
   background-color: #A7C2D9;
 }
 #title {
