@@ -2,7 +2,7 @@
 body {
   background-image: url(../media/village_background.jpg);
   background-repeat: no-repeat;
-  font-family: 'Poppins', "Lucida Sans" , "Lucida Sans Unicode", "Lucida Grande", arial, sans-serif; /*Custom Font*/
+  font-family: 'Poppins', "Lucida Sans" , "Lucida Sans Unicode", "Lucida Grande", arial, sans-serif; /*Custom Font and Font Stack*/
 }
 #Content_Block {
   display: block;
@@ -14,12 +14,22 @@ body {
   border-image-source: linear-gradient(#A7C2D9,#2B6CA3);
   border-image-slice: 1;
 }
+#body_div {
+  padding: 1em;
+  display: block;
+}
+
+/*Header Group*/
 #header_div {
   padding: 1em;	
 }
 #news {
   display: none;
 }
+#logo {
+  display: inline-block;
+}
+/*Navigation Group*/
 #nav_list {
   display: block;
   background-color: #2B6CA3;
@@ -34,13 +44,6 @@ body {
   padding: 1em 1em;
   text-decoration: none;
 }
-ul {
-  list-style-type: none;
-  text-align: left;
-}
-#signup_li {
-  margin-top: 1.5em;	
-}
 #nav_list a:hover {
   background-color: #A7C2D9;
 }
@@ -49,14 +52,20 @@ ul {
   display: inline-block;
   vertical-align: middle;
 }
-#body_div {
-  padding: 1em;
-  display: block;
+ul {
+  list-style-type: none;
+  text-align: left;
 }
-#logo {
-  display: inline-block;
+
+/*Conference Form Group*/
+#signup_li {
+  margin-top: 1.5em;	
 }
- 
+label {
+  width: 8em;
+  display: inline-block;  
+}
+
 /*Scaling for smaller media*/
 @media only screen and (max-width: 750px) { 
   body {
