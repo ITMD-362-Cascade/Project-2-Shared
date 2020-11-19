@@ -62,8 +62,9 @@ ul {
   margin-top: 1.5em;	
 }
 label {
-  width: 8em;
+  width: 10em;
   display: inline-block;  
+  vertical-align: top;
 }
 
 /*Scaling for smaller media*/
