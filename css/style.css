@@ -36,6 +36,10 @@ body {
 }
 ul {
   list-style-type: none;
+  text-align: left;
+}
+#signup_li {
+  margin-top: 1.5em;	
 }
 #nav_list a:hover {
   background-color: #A7C2D9;
