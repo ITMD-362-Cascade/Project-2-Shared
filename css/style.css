@@ -2,7 +2,7 @@
 body {
   background-image: url(../media/village_background.jpg);
   background-repeat: no-repeat;
-  font-family: arial;
+  font-family: 'Poppins', Lucida Sans , arial, sans-serif; /*Custom Font*/
 }
 #Content_Block {
   display: block;
@@ -50,7 +50,7 @@ body {
 #logo {
   display: inline-block;
 }
-  
+ 
 /*Scaling for smaller media*/
 @media only screen and (max-width: 750px) { 
   body {
