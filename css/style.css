@@ -90,39 +90,3 @@ label {
     float: left;
   }
 }
-/*News scroller text only fit properly on larger scale media*/
-@media only screen and (min-width:1400px) {
-  #news {
-    display: block;
-    height: 1em;
-    border: 1em solid;
-    background-color: #2B6CA3;
-    border-color: #2B6CA3;
-    border-radius: 1em;
-  }
-  #news_movement {
-    height: 1em;
-    overflow: hidden;
-    position: relative;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    letter-spacing: .05em;
-  }
-  #news_text {
-    color: white;
-    font-size: 1.2em;
-    position: absolute;
-    text-align: left;
-    transform: translateX(100%);
-    animation: moving 10s linear infinite;
-  }
-  @keyframes moving {
-    0% {
-	  transform: translateX(155%);	
-    }
-    100% {
-      transform: translateX(-120%);
-    }
-  }
-}
