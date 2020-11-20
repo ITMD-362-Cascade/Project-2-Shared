@@ -3,6 +3,7 @@ body {
   background-image: url(../media/village_background.jpg);
   background-repeat: no-repeat;
   font-family: 'Poppins', "Lucida Sans" , "Lucida Sans Unicode", "Lucida Grande", arial, sans-serif; /*Custom Font and Font Stack*/
+  font-size: 15pt;
 }
 #Content_Block {
   display: block;
@@ -62,6 +63,7 @@ label {
   width: 10em;
   display: inline-block;  
   vertical-align: top;
+  font-size: 
 }
 
 /*Scaling for smaller media*/
