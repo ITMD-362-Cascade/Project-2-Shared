@@ -1,6 +1,7 @@
 /*Main Page Styles*/
 body {
   background-image: url(../media/village_background.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Poppins', "Lucida Sans" , "Lucida Sans Unicode", "Lucida Grande", arial, sans-serif; /*Custom Font and Font Stack*/
 }
