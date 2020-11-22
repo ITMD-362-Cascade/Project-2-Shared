@@ -83,6 +83,9 @@ label {
   body {
     margin: 0;
   }
+  #Content_Block {
+    border: none;
+  }	
   #logo {
 	filter: blur(.1em);
 	opacity: 50%;
