@@ -106,7 +106,11 @@ label {
 /*Modular Scaling of Text based on screen*/
 @media only screen and (max-width: 750px) { 
   html {font-size: 80%;}
+  #submit_label {
+  width: 0em;
+  }
 }
 @media only screen and (min-width: 750px) {
   html {font-size: 100%;}
+  
 }
