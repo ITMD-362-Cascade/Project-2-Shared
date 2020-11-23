@@ -85,6 +85,7 @@ label {
   }
   #Content_Block {
     border: none;
+	width: 100%;
   }	
   #logo {
 	filter: blur(.1em);
@@ -93,9 +94,6 @@ label {
 	display: block;
     margin-right: auto;
 	margin-left: auto;
-  }
-  #Content_Block {
-    width: 100%;
   }
   #title {
 	top: 1em;
@@ -107,8 +105,8 @@ label {
 
 /*Modular Scaling of Text based on screen*/
 @media only screen and (max-width: 750px) { 
-  html {font-size: 80%;} /*16px*/
+  html {font-size: 80%;}
 }
 @media only screen and (min-width: 750px) {
-  html {font-size: 100%;} /*16px*/
+  html {font-size: 100%;}
 }
