@@ -69,7 +69,7 @@ ul {
 }
 
 /*Conference Form Group*/
-#signup_li {
+.signup_li {
   margin-top: 1.5em;	
 }
 label {
